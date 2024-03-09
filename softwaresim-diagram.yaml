@@ -1,0 +1,419 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: 132
+addInfo:
+  tasks:
+    - name: Example
+      id: example
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T02:08:03.805Z
+        - 2024-03-09T02:08:03.805Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: false
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Dashed Straight ConnectorsLv17
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 304
+      y: 297.85
+    targetPoint:
+      x: 390.04
+      y: 332
+    sourceID: GoogleVfxOT
+    targetID: Hugging FaceuCsVN
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight ConnectorqiulG
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 304
+      y: 257.96
+    targetPoint:
+      x: 391.24
+      y: 223
+    sourceID: GoogleVfxOT
+    targetID: UnslothDPVZM
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #E62222; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_Black_87_and066.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_nszd8y.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Gemma</div></div><hr class="c-underrule"
+        style="background-color: #E62222"></div>'
+    id: GoogleVfxOT
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google
+      editableName: Gemma
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_nszd8y.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google__044448_fia9qy.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_Black_87_and066.png
+      color: "#E62222"
+      controlText: Google
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 254
+    offsetY: 278
+    zIndex: 1
+    outEdges:
+      - Dashed Straight ConnectorsLv17
+      - Dashed Straight ConnectorqiulG
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #9E630B;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png);"></div><div
+        class="c-text"><div class="c-title">Hugging Face</div><div
+        class="c-short-description">Developing and implementing state-of-the-art
+        AI libraries and tools</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Hugging
+        Face</div></div></div></div></div>'
+    id: Hugging FaceuCsVN
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Hugging Face
+        shortDescription: Developing and implementing state-of-the-art AI libraries and tools
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Hugging Face
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Hugging Face
+      editableName: Hugging Face
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Model Repository
+          type: Storage
+          portsIn:
+            put: models
+            get: fetch
+          portsOut:
+            stored: models
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Model Repository
+      name: Hugging Face
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face__044448_dhzej2.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png
+      color: "#9E630B"
+      controlText: Hugging Face
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 516
+    offsetY: 382
+    zIndex: 2
+    inEdges:
+      - Dashed Straight ConnectorsLv17
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: rgb(33, 33, 33);"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_Black_87_len9hh.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_emsr7w.png);"></div><div
+        class="c-text"><div class="c-title">Unsloth</div><div
+        class="c-short-description">Unsloth offers open-source finetuning to
+        speed up AI and LLMs</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Unsloth</div></div></div></div></div>'
+    id: UnslothDPVZM
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Unsloth
+        shortDescription: Unsloth offers open-source finetuning to speed up AI and LLMs
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Unsloth
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Unsloth
+      editableName: Unsloth
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Unsloth
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_emsr7w.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth__044448_yjyeeh.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709502781/sds_logos/Unsloth_Black_87_len9hh.png
+      color: rgb(33, 33, 33)
+      controlText: Unsloth
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 516
+    offsetY: 173
+    zIndex: 3
+    inEdges:
+      - Dashed Straight ConnectorqiulG
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="h-full w-full">
+                <div class="h-full w-full relative">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: visible; opacity: 1;">
+                    <rect x="0" y="0" width="100%" height="100%" rx="10" ry="10" fill="none" stroke="#2A2A2A" stroke-width="2" stroke-dasharray="4 4"></rect>
+                  </svg>
+                </div>
+                <div class="model-group bg-center bg-no-repeat bg-contain top-0 right-0 bottom-0 left-0 opacity-30 absolute" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682862873/sds_logos/Google_Colab_Black_87_sjvxq1.png)">
+                </div>
+              </div>
+    id: Branded Logical GroupFWJlK
+    width: 498
+    height: 337.99999999999994
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 428
+    offsetY: 278
+    annotations:
+      - id: oH7Hb
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      brand: https://res.cloudinary.com/dwohyn92h/image/upload/v1682862873/sds_logos/Google_Colab_Black_87_sjvxq1.png
+      size: lg
+    zIndex: 0
+selectedItems:
+  width: 0
+  height: 0
